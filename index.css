@@ -1,3 +1,7 @@
-header {
-    background-color: brown;
+header * {
+    background-color: blue;
+}
+
+#table1 {
+    width: 100%;
 }
