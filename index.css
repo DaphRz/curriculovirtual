@@ -1,7 +1,49 @@
-header * {
-    background-color: blue;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+header h1 {
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    }
+
+header h2 {
+    font-family: "Noto Serif", serif;
+    }
+
+p {
+    font-size: 15.6px;
+    font-family: "Roboto Slab", serif;   
+    font-weight: 555; 
+    }
+
+table {
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 450;
+    }
+
+tbody {
+    text-align: center;
 }
 
 #table1 {
-    width: 100%;
+    }
+
+form {
+    font-size: 15px;
+    font-weight: bold;
+
+}    
+
+h2 {
+
 }
+
