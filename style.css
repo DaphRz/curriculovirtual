@@ -15,10 +15,10 @@ body{
 
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba (0, 0, 0, 0.5));
-    background-image: url(minha_foto.jpg);
+    background-image: url(Fotos/minha_foto.jpg);
     background-size: cover;
     background-position: center;
-    width: 55%;
+    width: 100%;
     height: 100vh;
 }
 
@@ -34,6 +34,46 @@ header{
 .cabeçalho-link{
     display: flex;
     gap: 3rem;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: #fff;
+}
+
+.cabeçalho-link a:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: #2ecc71 solid 1.83px;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1.83px #fff;
+    padding: 5px;
+    border-radius: 15px;
+    width: 140px;
+    font-weight: 520;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2cb464;
+    color: #fff;
+    transition: 0.5s;
 }
