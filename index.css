@@ -14,6 +14,10 @@ header h1 {
     font-weight: 600;
     }
 
+body img {
+    border-radius: 10px
+}
+
 header h2 {
     font-family: "Noto Serif", serif;
     }
@@ -36,6 +40,9 @@ tbody {
 
 #table1 {
     }
+
+#table2 {
+}
 
 form {
     font-size: 15px;
