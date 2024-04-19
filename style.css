@@ -15,7 +15,7 @@ body{
 
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba (0, 0, 0, 0.5));
-    background-image: url(Fotos/minha_foto.jpg);
+    background-color: black;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -30,7 +30,6 @@ header{
     text-align: center;
     padding-top: 1rem;
 }
-
 .cabeçalho-link{
     display: flex;
     gap: 3rem;
@@ -51,8 +50,9 @@ header{
     height: 40px;
     width: 40px;
     background: transparent;
-    border: #2ecc71 solid 1.83px;
+    border: azure solid 1.83px;
     color: #2ecc71;
+    font-size: 20px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -76,4 +76,53 @@ button:hover{
     background-color: #2cb464;
     color: #fff;
     transition: 0.5s;
+}
+
+.segundo{
+    width: 145px;
+}
+
+img{
+    width: 30%;
+    margin-left: 20%;
+    border-radius: 10%;
+}
+
+.texto{
+    padding: 150px 0 0 130px;
+    display:flex;
+}
+
+.text h3{
+    color: #fff;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color:#2ecc71;
+}
+
+.text p{
+    color:#fff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.redes_sociais a{
+    color:#2ecc71;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.redes_sociais i:hover{
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.redes_sociais i:last-child{
+    width: 30px;
 }
