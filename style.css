@@ -9,6 +9,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba (0, 0, 0, 0.5));
     background-color: black;
@@ -182,7 +186,7 @@ button:hover{
 .sobre_mim{
     background-color: #191919;
     width: 100%;
-    padding: 100px;
+    padding: 110px;
 }
 
 #segunda_foto{
@@ -207,7 +211,7 @@ button:hover{
     justify-content: space-around;
     width: 1200px;
     margin: 0 auto;
-    height: 75vh;
+    height: 80vh;
 }
 
 .text_sobre h2{
@@ -229,6 +233,11 @@ button:hover{
     color: #2cb464;
 }
 
+.text_sobre span:hover{
+    transition: 0.3s ease;
+    text-shadow: 0px 0px 5px #57e994a9;
+}
+
 .text_sobre p{
     color: #fcfcfc;
     letter-spacing: 1px;
@@ -245,7 +254,7 @@ button:hover{
 
 .title h2{
     color: #fcfcfc;
-    font-size: 75px;
+    font-size: 73px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
@@ -258,7 +267,7 @@ button:hover{
     align-items: center;
     min-height: 400px;
     flex-wrap: wrap;
-}
+  }
 
 .card{
     background-color: #101010;
@@ -280,25 +289,26 @@ button:hover{
     color: #2cb464;
 }
 
-.card i:hover{
+.card i:hover, .card1 i:hover{
     transition: 0.3s ease;
     text-shadow: 0px 0px 5px #57e994a9;
     transform: scale(1.1);
 }
 
-.card h5{
+.card h5, .card1 h5, .card2 h5{
     color: #fcfcfc;
     font-size: 23px;
     margin-bottom: 15px;
 }
 
 .card p{
-    color: #fcfc;
-    font-size: 16px;
+    color:rgba(204, 255, 230, 0.8);
+    font-size: 17px;
     line-height: 27px;
     margin-bottom: 25px;
     text-align: justify;
     margin: 18px;
+    font-weight: 400;
 }
 
 .add{
@@ -311,5 +321,142 @@ button:hover{
     color: #191919;
     border-bottom: 3px solid #fcfcfc;
     transition: 0.3s ease;
+}
+
+.main_estudo{
+    background-color:#191919;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.title_table h2, .title h2{
+    color: #c5c4c4;
+    font-size: 73px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_table h2:hover, .title h2:hover, .text_sobre h2{
+    text-shadow: 0px 0px 8px #2cb464;
+    transition: 0.3s ease;
+}
+
+.card2{
+    background-color: #101010;
+    height: 500px;
+    width: 1001px;
+    border: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+table{
+    width: 1000px;
+    height: 500px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+table, th, td {
+    border: 1.9px solid #000000;
+}
+
+table thead{
+    background-color: #289f5aef;
+}
+
+table thead:hover{
+    background-color: #36c66b;
+}
+
+tbody{
+    background-color:#a5f3c6c2;
+}
+
+th{
+    font-weight: 600;
+    padding: 10px;
+    font-size: 17px;
+    color: #101010;
+}
+
+td{
+    font-weight: 410;
+    padding: 10px;
+    font-size: 17px;
+}
+
+td:hover{
+    background-color: #2cb464;
+}
+
+.main_conquistas{
+    background-color:black;
+    width: 100%;
+    padding: 18px 0px;
+}
+
+.title_conquistas h2{
+    color: #c5c4c4;
+    font-size: 73px;
+    width: 1130px;
+    margin: 40px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_conquistas h2:hover{
+    text-shadow: 0px 0px 8px #2cb464;
+    border-bottom: 3px solid #2cb464;
+    transition: 0.3s ease;
+}
+
+.caixas1, .caixas2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card1{
+    background-color: #101010;
+    height: 460px;
+    width: 350px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 23px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card1 i{
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #2cb464;
+}
+
+.card1 p{
+    color:rgba(204, 255, 230, 0.8);
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.conquistas span{
+    text-shadow: 0px 0px 8px #2cb464;
+    color: #3ac272;
 }
 
