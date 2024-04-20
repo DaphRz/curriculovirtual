@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-
-<section class="pagina_inicial">
+    
 <head>
+
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -17,24 +17,26 @@
 
 <body>
     <div class="background">
+
         <header>
             <div class="logo">
                 <i class="fa-solid fa-circle-user"></i>
             </div>
+            
             <div class="cabeçalho-link">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#">Início</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#mim">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Serviços</a>
+                    <a href="#proj">Projetos</a>
                 </li>
                 <li>
-                    <a href="#">Trabalho</a>
+                    <a href="#">Estudo</a>
                 </li>
-                <button><a href="mailto:daphne.amigo@uvvnet.com.br">Meu Contato</a></button>
+                <button id="primeiro_button"><a href="mailto:daphne.amigo@uvvnet.com.br">Meu Contato</a></button>
             </div>
         </header>
 
@@ -50,13 +52,65 @@
                     <a href="mailto:daphne.amigo@uvvnet.com"><i class="fa-regular fa-envelope" target="_blank"></i></a>
                 </div>
                 <br>
-                <button class="segundo">Sobre mim</button>
+                <button class="segundo"> <a href="#mim">Sobre mim</a></button>
             </div>
 
-            <img src="Fotos/323545949_441235868089813_7639019638272046667_n.webp" alt="minha foto">
+            <img id="primeira_foto" src="Fotos/323545949_441235868089813_7639019638272046667_n.webp" alt="minha foto">
         </div>
     </div>
+
+    <section class="sobre_mim" id="mim">
+
+    <div class="main_sobre">
+        <img id="segunda_foto" src="Fotos/305750872_466933008487279_3317455801291338114_n.webp" alt="minha_foto_2">
+
+        <div class="text_sobre">
+            <h2>Sobre Mim</h2>
+            <h5>Estudante <span>Universitária</span></h5>
+            <p>Tenho 18 anos e estou no primeiro período do curso de <span>Ciência da Computação</span> na Universidade Vila Velha (UVV).</p>
+            <button id="terceiro_button"> <a href="https://wa.me/5528999515636?text=Ol%C3%A1,%20me%20chamo%20...%20e%20vim%20pelo%20seu%20portif%C3%B3lio%20;)">Vamos conversar</a></button>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="projetos" id="proj">
+
+        <div class="main_projetos">
+
+            <div class="title">
+                <h2>Experiências de Extensão</h2>
+            </div>
+
+            <div class="caixas">
+
+                <div class="card">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                    <h5>Iniciação Científica Júnior</h5>
+                    <p>Participei do Programa de Iniciação Científica Júnior do Espírito Santo – Pesquisador do Futuro (PICJr), apoiado e investido pela FAPES (Fundação de Amparo à Pesquisa e Inovação do Espírito Santo) em 2022 na cidade de Alegre, cuja temática era: Efeitos da Crise Climática nos Jovens e as Possibilidades da Educação Ambiental.</p>
+                    <button class="add"><i class="fa-solid fa-check"></i></button>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-drum"></i>
+                    <h5>Banda Escolar</h5>
+                    <p>Pratiquei como tarozeira (instrumento tarol) na Banda Fanfarra Aristeu Aguiar de Alegre, em 2022 e 2023, realizando apresentações em cidades como: Marataíses, Rive, Celina e Café.</p>
+                    <button class="add"><i class="fa-solid fa-check"></i></button>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-microscope"></i>
+                    <h5>Iniciação Científica Júnior</h5>
+                    <p>Participei do Programa de Iniciação Científica Júnior do Espírito Santo – Pesquisador do Futuro (PICJr), apoiado e investido pela FAPES (Fundação de Amparo à Pesquisa e Inovação do Espírito Santo) em 2023 na cidade de Alegre, cuja temática era: Soluções Microscópicas para a Agricultura: um Panorama Biotecnológico da Microbiota dos Solos frente às Mudanças Climáticas.</p>
+                    <button class="add"><i class="fa-solid fa-check"></i></button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
 </body>
-</section>
 
 </html>

@@ -9,10 +9,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    overflow: hidden;
-}
-
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba (0, 0, 0, 0.5));
     background-color: black;
@@ -58,12 +54,17 @@ header{
     align-items: center;
     text-align: center;
     justify-content: center;
-    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-button{
+.logo:hover{
+    color: #fff;
+    border: transparent;
+}
+
+#primeiro_button{
     color: #2ecc71;
-    background: transparent;
+    background:#2cb465ed;
     border: solid 1.83px #fff;
     padding: 5px;
     border-radius: 15px;
@@ -73,19 +74,63 @@ button{
 }
 
 button:hover{
-    background-color: #2cb464;
+    background-color: #2cb465f1;
     color: #fff;
     transition: 0.5s;
 }
 
-.segundo{
-    width: 145px;
+#primeiro_button:hover{
+    background-color:#ffffffd6
 }
 
-img{
+.segundo{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1.83px #fff;
+    padding: 5px;
+    border-radius: 15px;
+    width: 145px;
+    font-weight: 520;
+    cursor: pointer;
+}
+
+.segundo a{
+    color: #2cb464;
+}
+
+.segundo a:hover{
+    color: #fcfcfc;
+}
+
+#terceiro_button{
+    color:#2ecc71;
+    background: transparent;
+    border: solid 1.83px #fff;
+    padding: 6px;
+    border-radius: 16px;
+    width: 170px;
+    font-weight: 530;
+    font-size: 13.5px;
+}
+
+#terceiro_button a{
+    color: #2cb464;
+}
+
+#terceiro_button:hover{
+    background-color:#a5f3c6db;
+}
+
+#primeira_foto{
     width: 30%;
-    margin-left: 20%;
+    margin-left: 23%;
     border-radius: 10%;
+}
+
+#primeira_foto:hover{
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 60px #57e994a9;
+    transform: scale(1.04);
 }
 
 .texto{
@@ -106,6 +151,12 @@ img{
     color:#2ecc71;
 }
 
+.text span:hover{
+    transition: 0.3s ease;
+    text-shadow: 0px 0px 5px #57e994a9;
+    transform: scale(1.5);
+}
+
 .text p{
     color:#fff;
     font-weight: 500;
@@ -121,8 +172,144 @@ img{
 .redes_sociais i:hover{
     color: #fff;
     transition: 0.3s all;
+    transform: scale(1.08);
 }
 
 .redes_sociais i:last-child{
     width: 30px;
 }
+
+.sobre_mim{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px;
+}
+
+#segunda_foto{
+    width: 430px;
+    border-radius: 10%;
+    margin-right: 200px;
+}
+
+#segunda_foto:hover{
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 80px #57e994a9;
+    transform: scale(1.04);
+}
+
+.text_sobre{
+    width: 550px;
+}
+
+.main_sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+.text_sobre h2{
+    color:#fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text_sobre h5{
+    color:#fcfcfc;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text_sobre span{
+    color: #2cb464;
+}
+
+.text_sobre p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18.5px;
+    margin-bottom: 45px;
+}
+
+.main_projetos{
+    background-color:black;
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.title h2{
+    color: #fcfcfc;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #101010;
+    height: 590px;
+    width: 350px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #2cb464;
+}
+
+.card i:hover{
+    transition: 0.3s ease;
+    text-shadow: 0px 0px 5px #57e994a9;
+    transform: scale(1.1);
+}
+
+.card h5{
+    color: #fcfcfc;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+    margin: 18px;
+}
+
+.add{
+    background: transparent;
+    border: transparent;
+}
+
+.add:hover{
+    background: transparent;
+    color: #191919;
+    border-bottom: 3px solid #fcfcfc;
+    transition: 0.3s ease;
+}
+
