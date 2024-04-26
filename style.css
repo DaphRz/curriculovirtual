@@ -493,7 +493,6 @@ footer p{
 }
 
 .tecnologias a{
+    text-decoration: none;
     cursor: none;
 }
-
-
